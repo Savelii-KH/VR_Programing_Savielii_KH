@@ -19,6 +19,8 @@ public class NewEmptyCSharpScript : Editor
 
         if (GUILayout.Button("Generate"))
         {
+
+            mapGen.seed = Random.Range(0, 10000);
             mapGen.GenerateMap();
         }
     }
