@@ -125,7 +125,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CausticCutout: 0.55
+    - _CausticCutout: 0.58
     - _CausticSpeed: 0.0005
     - _CausticTiling: 10
     - _ClearCoatMask: 0
