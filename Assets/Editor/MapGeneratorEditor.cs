@@ -13,7 +13,7 @@ public class NewEmptyCSharpScript : Editor
         {
             if (mapGen.autoUpdate)
             {
-                mapGen.GenerateMap();
+                mapGen.DrawMapIneditor();
             }
         }
 
@@ -21,7 +21,7 @@ public class NewEmptyCSharpScript : Editor
         {
 
             mapGen.seed = Random.Range(0, 10000);
-            mapGen.GenerateMap();
+            mapGen.DrawMapIneditor();
         }
     }
 }
